@@ -19,14 +19,16 @@
 - [X] Data buku yang ditampilkan pada rak, baik itu "Belum selesai dibaca" maupun "Selesai dibaca" **harus dapat bertahan walaupun halaman web ditutup**.
 - [X] **harus menyimpan data buku pada localStorage**.
 
-# Saran
+## Saran
 - [X] Tambahkan fitur pencarian untuk mem-filter buku yang ditampilkan pada rak sesuai dengan title buku yang dituliskan pada kolom pencarian.
 - [X] Berkreasilah dengan membuat proyek Bookshelf Apps tanpa menggunakan project starter.
 - Terdapat improvisasi fitur seperti (pilih satu):
   - [X] Custom Dialog ketika menghapus buku.
   - [X] Dapat meng-edit buku.
 
-
+## Hasil
+![Desktop](https://github.com/ahm4ddm/dicoding-bookshelf-apps/blob/main/desktop.png?raw=true)
+![Mobile](https://github.com/ahm4ddm/dicoding-bookshelf-apps/blob/main/mobile.png?raw=true)
 # Note
 - Font menggunakan [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Referensi warna menggunakan [ini](https://colorhunt.co/palette/e93b81f5abc9ffe5e2b6c9f0)
