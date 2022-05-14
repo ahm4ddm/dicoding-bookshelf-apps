@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf Apps</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="headBar"><h1>Bookshelf Apps</h1></header>
+    <section id="myModal" class="modal">
+        <div class="contentModal">
+            <span class="close"><i class="fa-solid fa-circle-xmark fa-lg"></i></span>
+            <h1>Tambah Buku</h1>
+            <form id="inpBuku">
+                <div class="inp">
+                    <label for="judul">Judul</label>
+                    <input id="judul" type="text" required>
+                </div>
+                <div class="inp">
+                    <label for="penulis">Penulis</label>
+                    <input id="penulis" type="text" required>
+                </div>
+                <div class="inp">
+                    <label for="tahun">Tahun</label>
+                    <input id="tahun" type="number" required>
+                </div>
+                <button id="subm" type="submit">Masukkan ke rak</button>
+            </form>
+        </div>
+    </section>  
+
+    <main>  
+        <section class="add_section">
+            <h1>Tambah Buku</h1>
+            <button id="addBtn"><i class="fa-solid fa-circle-plus fa-xl"></i></button>
+        </section>
+
+        <section class="search_section">
+            <h1>Cari Buku</h1>
+            <form id="searchF" aria-disabled="disabled">
+                <input id="searchI" type="text" placeholder="Ketikkan judul buku">
+                <button id="searchB" type="button"><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+            </form>
+            <div id="resultSearch">
+                
+            </div>
+        </section>    
+
+        <section class="bookcase">
+            <h2>Rak Selesai dibaca</h2>
+            <div class="bookList" id="isRead">
+                <table id="completedTable">
+                    <thead>
+                        <tr>
+                            <th>Judul</th>
+                            <th>Penulis</th>
+                            <th>Tahun</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="completedDetail">
+
+                    </tbody>
+                </table>
+
+            </div>
+        </section>
+
+        <section class="bookcase">
+            <h2> Rak Belum selesai dibaca</h2>
+            <div class="bookList" id="notRead">
+                <table id="notCompletedTable">
+                    <thead>
+                        <tr>
+                            <th>Judul</th>
+                            <th>Penulis</th>
+                            <th>Tahun</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="notCompletedDetail">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/ui.js"></script>
+    <script src="assets/js/init.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
