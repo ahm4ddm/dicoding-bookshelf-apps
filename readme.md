@@ -27,7 +27,9 @@
   - [X] Dapat meng-edit buku.
 
 ## Hasil
+### Desktop
 ![Desktop](https://github.com/ahm4ddm/dicoding-bookshelf-apps/blob/main/desktop.png?raw=true)
+### Mobile
 ![Mobile](https://github.com/ahm4ddm/dicoding-bookshelf-apps/blob/main/mobile.png?raw=true)
 # Note
 - Font menggunakan [Montserrat](https://fonts.google.com/specimen/Montserrat)
